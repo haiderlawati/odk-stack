@@ -16,14 +16,14 @@
               class="back-button"
             >
           </router-link>
-          Inloggen
+          Login
         </h1>
         <p class="body-1">This login is for ODP-be'ah project.</p>
       </div>
 
       <div class="text-section-dropdown">
-        <b-field label="Scan-chauffeur">
-          <b-select v-model="chosenUser" class="select" placeholder="Selecteer uw ID">
+        <b-field label="Scan driver">
+          <b-select v-model="chosenUser" class="select" placeholder="Select your ID">
             <option
               v-for="option in users"
               :key="option.id"
