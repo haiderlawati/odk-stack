@@ -7,7 +7,7 @@
     <div class="text-section">
       <div class="text-section-header">
         <h1 class="odk-title">Verwijder sitegegevens</h1>
-        <p class="body-1">U heeft waarschijnlijk geen toegang verleend tot het gebruik van uw locatie en/of camera. Aangezien deze app een PWA is, zou u de sitegegevens moeten verwijderen om de app te gebruiken.</p>
+        <p class="body-1">You probably have not granted access to use your location and/or camera. Since this app is a PWA, you would have to delete the site data to use the app.</p>
       </div>
 
       <div class="text-section-footer">

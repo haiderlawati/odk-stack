@@ -7,7 +7,7 @@
     <div class="text-section">
       <div class="text-section-header">
         <h1 class="odk-title">Object Detection Kit</h1>
-        <p class="body-1">Houd de straten schoon door te scannen tijdens het rijden</p>
+        <p class="body-1">Keep the streets clean by scanning while driving</p>
       </div>
 
       <div class="text-section-buttons">
@@ -17,7 +17,7 @@
           tag="b-button"
           class="is-secondary is-rounded is-expanded"
         >
-          Inloggen
+          Login
         </router-link>
 
         <!-- Start trial / Demo user -->

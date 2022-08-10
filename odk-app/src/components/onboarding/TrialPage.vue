@@ -19,8 +19,8 @@
           ODK uitproberen
         </h1>
         <p class="body-1">
-          Tijdens het uitproberen van de App worden uw scan resultaten niet opgeslagen. 
-          Als u een chauffeur van de gemeente bent, ga dan terug en log in met uw code.
+          While trying out the App, your scan results will not be saved. 
+          If you have an account, go back and log in with your code.
         </p>
       </div>
 
@@ -30,7 +30,7 @@
           class="is-secondary is-rounded is-expanded"
           @click="toRecommendation()"
         >
-          Nu uitproberen
+          Try it now
         </b-button>
       </div>
     </div>

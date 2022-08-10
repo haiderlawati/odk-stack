@@ -9,7 +9,7 @@
 
     <div class="text-section">
       <h1>Object Detection Kit</h1>
-      <p>Zorg voor schone straten door te scannen tijdens het rijden</p>
+      <p>Keep streets clean by scanning while driving</p>
 
       <b-button
         v-if="pwaCapable"
@@ -19,49 +19,49 @@
         outlined
         @click.native="clickAddAppButton"
       >
-        App installeren
+        Install App
       </b-button>
 
       <!-- SUPPORTED BROWSERS MANUAL -->
       <div v-if="activeVendor === 'chrome' || activeVendor === 'edgeAndroid' || activeVendor === 'firefoxAndroid'">
         <p>
-          Om door te gaan moet u de <strong>app installeren</strong>
+          To continue you must use the <strong>install app</strong>
         </p>
 
         <p>
           <router-link :to="{ name:'installation-manual', params: { openCard: activeVendor } }">
-            Hoe installeer ik een PWA?
+            How do I install a PWA?
           </router-link>
         </p>
       </div>
 
       <!-- UNSUPPORTED BROWSERS MANUAL -->
       <div v-else-if="activeVendor === 'iOS'">
-        <p>iOS wordt niet ondersteund</p>
+        <p>iOS is not supported</p>
 
         <p>
           <router-link :to="{ name:'installation-manual', params: { openCard: activeVendor } }">
-            Waarom?
+            Why?
           </router-link>
         </p>
       </div>
 
       <div v-else-if="activeVendor === 'othersAndroid'">
-        <p>Gebruik een andere browser</p>
+        <p>Use a different browser</p>
 
         <p>
           <router-link :to="{ name:'installation-manual', params: { openCard: activeVendor } }">
-            Welke browser?
+            Which browser?
           </router-link>
         </p>
       </div>
 
       <div v-else>
-        <p>Deze app is gemaakt voor Android telefoons</p>
+        <p>This app is made for Android phones</p>
 
         <p>
           <router-link :to="{ name:'installation-manual', params: { openCard: activeVendor } }">
-            Waarom?
+            Why?
           </router-link>
         </p>
       </div>

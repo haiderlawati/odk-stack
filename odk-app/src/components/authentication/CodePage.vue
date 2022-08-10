@@ -19,7 +19,7 @@
           Welkom {{ username }}
         </h1>
 
-        <p class="body-1">Voer uw pincode in</p>
+        <p class="body-1">Enter your PIN code</p>
 
         <div class="input-wrapper">
           <div 
@@ -49,7 +49,7 @@
           disabled
           @click="sendCode()"
         >
-          Inloggen
+          Login
         </b-button>
       </div>
     </div>

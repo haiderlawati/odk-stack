@@ -79,19 +79,19 @@ export default {
     return {
       step: 0,
       content: {
-        caption: "Het wordt aanbevolen om",
+        caption: "It is recommended to",
         steps: [
           {
-            title: "Uw telefoon op te laden",
-            body: "Het streamen verbruikt veel batterij.",
+            title: "Charge your phone",
+            body: "Streaming consumes a lot of battery.",
           },
           {
-            title: "Uw dataverbruik te controleren",
-            body: "Het streamen kost veel data. Een ongelimiteerd abonnement wordt geadviseerd.",
+            title: "Check your data usage",
+            body: "Streaming takes a lot of data. An unlimited subscription is recommended.",
           },
           // {
-          //   title: "Uw eigen modus te kiezen",
-          //   body: "Met handmatige modus kunt u er zelf voor kiezen wanneer u wilt streamen. De automatische modus zal de stream kunnen starten en stoppen op basis van uw rijsnelheid.",
+          //   title: "Choose your own mode",
+          //   body: "Manual mode lets you choose when you want to stream. The automatic mode will be able to start and stop the stream based on your driving speed.",
           // },
         ],
       },

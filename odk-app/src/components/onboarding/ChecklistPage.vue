@@ -9,7 +9,7 @@
 
     <div class="text-section">
       <div class="text-section-header">
-        <h1 class="odk-title">Voordat u begint</h1>
+        <h1 class="odk-title">Before you start</h1>
       </div>
 
       <div class="text-section-buttons">
@@ -22,7 +22,7 @@
         >
           <div>
             <img v-if="landscapeOrientation" class="checkmark" src="@/assets/ui/checkmark.svg">
-            <span :class="{ 'buttonspan-margin' : !landscapeOrientation }">Houd uw telefoon liggend</span>
+            <span :class="{ 'buttonspan-margin' : !landscapeOrientation }">Hold your phone horizontally</span>
           </div>
         </b-button>
 
@@ -37,7 +37,7 @@
         >
           <div>
             <img v-if="locationPermission" class="checkmark" src="@/assets/ui/checkmark.svg">
-            <span :class="{ 'buttonspan-margin' : !locationPermission }" class="buttonspan">GPS-locatie inschakelen</span>
+            <span :class="{ 'buttonspan-margin' : !locationPermission }" class="buttonspan">Enable GPS location</span>
           </div>
         </b-button>
 
@@ -53,11 +53,11 @@
         >
           <div>
             <img v-if="camPermission" class="checkmark" src="@/assets/ui/checkmark.svg">
-            <span :class="{ 'buttonspan-margin' : !camPermission }" class="buttonspan2">Camera inschakelen</span>
+            <span :class="{ 'buttonspan-margin' : !camPermission }" class="buttonspan2">Enable camera</span>
           </div>
         </b-button>
       </div>
-      <p class="tip">Als u deze stappen niet volgt, zal u ODK niet kunnen gebruiken</p>
+      <p class="tip">If you don't follow these steps, you won't be able to use ODK</p>
     </div>
   </odk-container>
 </template>

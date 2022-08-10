@@ -18,7 +18,7 @@
           </router-link>
           Inloggen
         </h1>
-        <p class="body-1">Deze login is voor medewerkers van Gemeente Amsterdam.</p>
+        <p class="body-1">This login is for ODP-be'ah project.</p>
       </div>
 
       <div class="text-section-dropdown">

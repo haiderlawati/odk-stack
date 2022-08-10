@@ -9,7 +9,7 @@
         src="@/assets/ui/chevron-left.svg"
         alt="Menu sluiten"
       >
-      <p>Terug</p>
+      <p>Back</p>
     </div>
 
     <!-- Default options -->
@@ -18,8 +18,8 @@
       class="stream-sidebar-option"
       @click="showManual()"
     >
-      <img svg-inline src="@/assets/ui/manual.svg" alt="Handleiding">
-      <p>Handleiding</p>
+      <img svg-inline src="@/assets/ui/manual.svg" alt="Instruction manual">
+      <p>Instruction manual</p>
       <img
         svg-inline
         src="@/assets/ui/chevron-right-grey.svg"
@@ -32,8 +32,8 @@
       v-if="!showManualOptions"
       class="stream-sidebar-option"
     >
-      <img svg-inline src="@/assets/ui/cog.svg" alt="Snelheid">
-      <p>Snelheid</p>
+      <img svg-inline src="@/assets/ui/cog.svg" alt="Speed">
+      <p>Speed</p>
       <b-switch 
         v-model="devToolsSpeed"
         type="is-primary"
@@ -46,8 +46,8 @@
       class="stream-sidebar-option"
       @click="logout()"
     >
-      <img svg-inline src="@/assets/ui/logout.svg" alt="Uitloggen">
-      <p>Uitloggen</p>
+      <img svg-inline src="@/assets/ui/logout.svg" alt="Log out">
+      <p>Log out</p>
     </div>
 
     <!-- Manual options -->
@@ -56,8 +56,8 @@
       class="stream-sidebar-option"
       @click="toManual('reset-manual')"
     >
-      <img svg-inline src="@/assets/ui/manual.svg" alt="Verwijder gegevens">
-      <p>Verwijder gegevens</p>
+      <img svg-inline src="@/assets/ui/manual.svg" alt="Clear data">
+      <p>Clear data</p>
     </div>
 
     <div
@@ -65,8 +65,8 @@
       class="stream-sidebar-option"
       @click="toManual('installation-manual')"
     >
-      <img svg-inline src="@/assets/ui/manual.svg" alt="Installeer PWA">
-      <p>Installeer PWA</p>
+      <img svg-inline src="@/assets/ui/manual.svg" alt="Install PWA">
+      <p>Install PWA</p>
     </div>
   </div>
 </template>
