@@ -25,7 +25,7 @@
           class="is-primary is-outlined is-rounded is-expanded"
           @click="toTrial()"
         >
-          Nu uitproberen
+          Try it now
         </b-button>
       </div>
     </div>

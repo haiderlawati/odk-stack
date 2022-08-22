@@ -291,7 +291,7 @@ export default {
       }
 
       // Set network error
-      const message = "Geen internetverbinding";
+      const message = "No Internet connection";
       this.errorHandling(message, 1, false);
 
       // If state went from online to offline while streaming
@@ -425,7 +425,7 @@ export default {
 
         // Set speed warning
         if (!this.streamError.state) {
-          const message = "U rijdt te traag om beelden te versturen";
+          const message = "You are driving too slow to send images";
           this.errorHandling(message, 2, false);
         }
 
@@ -437,7 +437,7 @@ export default {
       
       // Set speed warning
       if (!this.streamError.state) {
-        const message = "U rijdt te snel om beelden te versturen";
+        const message = "You are driving too fast to send images";
         this.errorHandling(message, 2, false);
       }
 
@@ -621,7 +621,7 @@ export default {
       if (ws_message.type == "error") {
         console.error(ws_message.error, ws_message.content);
 
-        const message = "Data fout opgetreden, probeer opnieuw";
+        const message = "Data error occurred, please try again";
         this.errorHandling(message, 1, true, 3000);
       }
       else {
@@ -643,7 +643,7 @@ export default {
       };
 
       // Set error
-      const message = "Verbinding met server mislukt";
+      const message = "Connection to server failed";
       this.errorHandling(message, 1, true, 5000);
     },
 

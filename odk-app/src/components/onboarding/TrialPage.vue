@@ -16,7 +16,7 @@
               class="back-button"
             >
           </router-link>
-          ODK uitproberen
+          Try ODK
         </h1>
         <p class="body-1">
           While trying out the App, your scan results will not be saved. 

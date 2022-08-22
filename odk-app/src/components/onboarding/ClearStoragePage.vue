@@ -6,7 +6,7 @@
 
     <div class="text-section">
       <div class="text-section-header">
-        <h1 class="odk-title">Verwijder sitegegevens</h1>
+        <h1 class="odk-title">Delete site data</h1>
         <p class="body-1">You probably have not granted access to use your location and/or camera. Since this app is a PWA, you would have to delete the site data to use the app.</p>
       </div>
 

@@ -52,7 +52,7 @@
           class="fadeout-item"
           @click="switchRmd"
         >
-          Volgende
+          Next
         </b-button>
 
         <router-link
@@ -62,7 +62,7 @@
           tag="b-button"
           class="is-primary is-rounded is-outlined fadeout-item"
         >
-          Overslaan
+          Skip
         </router-link>
       </transition-group>
     </div>

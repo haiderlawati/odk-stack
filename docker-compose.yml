@@ -1,6 +1,15 @@
 version: '3.5'
 
 services:
+  userdash:
+    container_name: user-management-dashboard
+    build:
+      context: ./user-management-dashboard
+      args:
+        - APP_NAME=ODK dev
+    ports:
+        - "8070:80"
+
   app:
     container_name: odk-app
     build:

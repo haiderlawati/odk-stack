@@ -7,7 +7,7 @@
       <img
         svg-inline
         src="@/assets/ui/chevron-left.svg"
-        alt="Menu sluiten"
+        alt="Close Menu"
       >
       <p>Back</p>
     </div>
@@ -23,7 +23,7 @@
       <img
         svg-inline
         src="@/assets/ui/chevron-right-grey.svg"
-        alt="Naar handleiding"
+        alt="To manual"
         class="stream-sidebar-option-arrow"
       >
     </div>

@@ -2,7 +2,7 @@
 -- Raw Frame Sender --
 
 This tool is used to create and send 'raw frames' to the ODK API.
-See `app.models.frame.RawFrame` for the definition of a raw frame.
+See `app.models.schemas.frame.RawFrame` for the definition of a raw frame.
 Written in NodeJS to stay close to the ODK APP functionality.
 
 Usage:
@@ -18,7 +18,7 @@ const fs = require('fs');
 const args = process.argv.slice(2);
 const imageFolder = args[0];
 const host = args[1] || 'localhost';
-const port = args[2] || '8090';
+const port = args[2] || '8080';
 
 const wsUrl = "ws://" + host + ":" + port + "/stream";
 const ws = new WebSocket(wsUrl);

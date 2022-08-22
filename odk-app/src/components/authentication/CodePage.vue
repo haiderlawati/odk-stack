@@ -16,7 +16,7 @@
               class="back-button"
             >
           </router-link>
-          Welkom {{ username }}
+          Welcome {{ username }}
         </h1>
 
         <p class="body-1">Enter your PIN code</p>
