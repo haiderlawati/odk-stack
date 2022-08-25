@@ -8,7 +8,7 @@ venv/
 .env
 
 # weights files
-#*.pt
+*.pt
 
 # pytest artifacts
 .pytest_cache/
