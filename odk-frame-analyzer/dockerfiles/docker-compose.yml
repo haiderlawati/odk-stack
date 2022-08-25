@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+
+  fa-rmq:
+    container_name: fa-rmq 
+    image: rabbitmq:3-management
+    environment:
+      - RABBITMQ_DEFAULT_USER=odk
+      - RABBITMQ_DEFAULT_PASS=development
+    volumes:
+      - ./rmq-definitions.json:/etc/rabbitmq/definitions.json
+    ports:
+       - "8081:8080"
+       - "5672:5672"
+       - "15672:15672"

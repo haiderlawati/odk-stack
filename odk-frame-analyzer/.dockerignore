@@ -1,0 +1,29 @@
+.git/
+images/
+output/
+.gitignore
+.gitmodules
+Dockerfile
+frame_analyzer_worker.conf
+requirements*
+*.json
+update_yolov5_dependencies.sh
+
+# From .gitignore:
+# IDE stuff
+.idea/
+.vscode/
+
+# python
+venv/
+*.pyc
+.env
+
+# pytest artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+
+# images
+*.jpg
+*.png
