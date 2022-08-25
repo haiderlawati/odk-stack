@@ -3,4 +3,4 @@
 	url = https://gitlab.com/odk/odk-frame-analyzer.git
 [submodule "odk-frame-analyzer/yolov5"]
 	path = odk-frame-analyzer/yolov5
-	url = https://github.com/ultralytics/yolov5/tree/15a10609fe0e0f1fd3a03b11bf631a053cf001ca
+	url = https://github.com/ultralytics/yolov5.git
