@@ -77,4 +77,4 @@ COPY --chown=$APP_USER:$APP_USER . $APPLICATION_DIR
 WORKDIR $APPLICATION_DIR
 RUN mkdir output && chown $APP_USER:$APP_USER output
 
-ENTRYPOINT ["python", "start_worker.py"]
+ENTRYPOINT ["python", "start_worker.py", "--savewith", "--savewithout", "--bbox", "--blur"]

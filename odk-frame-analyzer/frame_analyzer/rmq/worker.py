@@ -218,7 +218,7 @@ class RabbitMQWorker(AbstractRabbitMQWorker):
             output_location="output"
     ):
         self.yolov5_detector = YOLOv5Detector(weights_location)
-        self.pytorch_detector = PyTorchDetector(weights_location)
+        #self.pytorch_detector = PyTorchDetector(weights_location)
             #"weights/garb_weights.pt"
         #    "weights/resnet_18_multilabel_weighted_SGD.pt"
             # "weights/tut5-model_large_garbage_set_pretrained_448_img_size_resnet_152.pt"
@@ -264,9 +264,9 @@ class RabbitMQWorker(AbstractRabbitMQWorker):
             )
 
             logger.info(f"Detected objects: {analyzed_frame.object_count}")
-            logger.info(f"Performing classification")
-            analyzed_frame = self.pytorch_detector.detect(analyzed_frame)
-            logger.info(f"Predicted categories present in image: {analyzed_frame.classification}")
+            #logger.info(f"Performing classification")
+            #analyzed_frame = self.pytorch_detector.detect(analyzed_frame)
+            #logger.info(f"Predicted categories present in image: {analyzed_frame.classification}")
 
             '''
             [Haider Al-Lawati]: This part must be updated with relevant information
