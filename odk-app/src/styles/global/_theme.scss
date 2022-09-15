@@ -9,6 +9,7 @@
 $white: rgb(255, 255, 255);
 $white-invert: findColorInvert($white);
 $dark: rgb(21, 21, 34);
+//$dark: rgb(67, 165, 40);
 $dark-invert: findColorInvert($dark);
 $grey-light: rgb(249, 248, 250);
 $grey-light-invert: findColorInvert($grey-light);
@@ -22,13 +23,16 @@ $grey-90-invert: findColorInvert($grey-90);
 
 $yellow: rgb(246, 211, 101);
 $yellow-invert: findColorInvert($yellow);
-$purple: rgb(58, 34, 93);
+//$purple: rgb(58, 34, 93);
+$purple: rgb(20, 186, 5);
 $purple-invert: findColorInvert($purple);
 $pink: rgb(200, 55, 96);
 $pink-invert: findColorInvert($pink);
 $orange: rgb(225, 82, 74);
 $orange-invert: findColorInvert($orange);
-
+//added by Haider, ODP
+//$lemon: rgb(20, 186, 5);
+//$lemon-invert: findColorInvert($lemon);
 // -- Semantic colours
 $blue: rgb(55, 93, 200);
 $blue-invert: findColorInvert($blue);
@@ -45,6 +49,7 @@ $colors: ("white": ($white, $dark),
   "light": ($light, $light-invert),
   "dark": ($dark, $dark-invert),
   "primary": ($purple, $purple-invert),
+  //"primary": ($lemon, $lemon-invert),  //added by Haider, ODP
   "secondary": ($yellow, $yellow-invert),
   "info": ($blue, $blue-invert),
   "success": ($green, $green-invert),
