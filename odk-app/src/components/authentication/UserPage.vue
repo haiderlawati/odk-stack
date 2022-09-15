@@ -34,7 +34,7 @@
           </b-select>
         </b-field>
 
-        <img src="@/assets/pwa/gemeente-logo.png" alt>
+        <img src="@/assets/pwa/beah-logo.png" alt>
       </div>
     </div>
   </odk-container>
