@@ -32,8 +32,8 @@ services:
     container_name: odk-api
     build: https://github.com/haiderlawati/odk-stack/tree/main/odk-api
     env_file:
-      - https://github.com/haiderlawati/odk-stack/blob/main/odk-api/.global.env
-      - https://github.com/haiderlawati/odk-stack/blob/main/odk-api/.development.env
+      - https://raw.githubusercontent.com/haiderlawati/odk-stack/main/odk-api/.global.env
+      - https://raw.githubusercontent.com/haiderlawati/odk-stack/main/odk-api/.development.env
     ports:
       - "8080:80"
 
