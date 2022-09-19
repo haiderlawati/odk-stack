@@ -13,7 +13,7 @@ services:
   frame-analyzer:
     container_name: odk-frame-analyzer
     build:
-      context: https://github.com/haiderlawati/odk-stack/tree/main/odk-frame-analyzer
+      context: ./odk-frame-analyzer
     ports:
       - "8090:80"
       - "8099:8099"
@@ -21,7 +21,7 @@ services:
   app:
     container_name: odk-app
     build:
-      context: https://github.com/haiderlawati/odk-stack/tree/main/odk-app
+      context: ./odk-app
       args:
         - APP_NAME=ODK dev
         - MODE=production
@@ -30,10 +30,10 @@ services:
 
   api:
     container_name: odk-api
-    build: https://github.com/haiderlawati/odk-stack/tree/main/odk-api
+    build: ./odk-api
     env_file:
-      - https://raw.githubusercontent.com/haiderlawati/odk-stack/main/odk-api/.global.env
-      - https://raw.githubusercontent.com/haiderlawati/odk-stack/main/odk-api/.development.env
+      - ./odk-api/.global.env
+      - ./odk-api/.development.env
     ports:
       - "8080:80"
 
